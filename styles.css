@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.65;
+}
+
+.hero {
+  min-height: 72vh;
+  display: flex;
+  align-items: end;
+  padding: 5rem 1.25rem 3rem;
+  background:
+    linear-gradient(rgba(12, 28, 43, 0.48), rgba(12, 28, 43, 0.58)),
+    url('images/hero.jpg') center/cover no-repeat;
+  color: #fff;
+  border-radius: 0 0 24px 24px;
+  margin-bottom: 2rem;
+}
+
+.hero-inner {
+  max-width: 760px;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.18);
+  font-size: 0.9rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  margin-bottom: 0.75rem;
+}
+
+.lead {
+  font-size: 1.1rem;
+  max-width: 42rem;
+}
+
+.hero-meta {
+  display: grid;
+  gap: 0.5rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.hero-actions,
+.quick-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.quick-nav {
+  margin: 1rem 0 2rem;
+}
+
+.quick-nav a,
+.btn-main,
+.btn-secondary {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 0.8rem 1.15rem;
+  font-weight: 600;
+}
+
+.btn-main {
+  background: #1f6aa5;
+  color: #fff;
+}
+
+.btn-main:hover {
+  background: #17537f;
+  color: #fff;
+}
+
+.btn-secondary,
+.quick-nav a {
+  background: #eef4f8;
+  color: #18354d;
+}
+
+.quick-nav a:hover,
+.btn-secondary:hover {
+  background: #dde9f1;
+  color: #18354d;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.gallery-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+}
+
+.cta-card {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f7fafc;
+  border: 1px solid #d9e6ef;
+  border-radius: 20px;
+}
+
+details {
+  background: #f8fbfd;
+  border: 1px solid #d9e6ef;
+  border-radius: 14px;
+  padding: 0.9rem 1rem;
+  margin: 0.8rem 0;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 58vh;
+    padding-top: 4rem;
+  }
+}

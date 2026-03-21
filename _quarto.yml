@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Vodák 2026"
+  favicon: images/favicon.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: Pozvánka
+    right:
+      - text: "Potvrdit účast"
+        href: "https://forms.gle/TVUJ-ODKAZ-SEM"
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <meta name="description" content="Přehledný info balíček k vodácké akci – termín, program, vybavení, doprava a potvrzení účasti.">
+        <meta name="theme-color" content="#1f6aa5">
+        <meta name="robots" content="index,follow">
+
+editor: visual
