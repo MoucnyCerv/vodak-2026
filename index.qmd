@@ -4,76 +4,287 @@ page-layout: full
 ---
 
 ::: {.hero}
-<div class="hero-inner">
-  <span class="eyebrow">Letní voda pro přátele</span>
-  <h1>Vodák 2026</h1>
-  <p class="lead">
-    Dva dny na řece, pohoda na vodě, večer u ohně a minimum chaosu.
-    Tady najdeš všechny důležité informace na jednom místě.
-  </p>
-  <div class="hero-meta">
-    <div><strong>Termín:</strong> 12.–14. června 2026</div>
-    <div><strong>Řeka:</strong> Sázava</div>
-    <div><strong>Sraz:</strong> pátek 18:00, Praha / dle domluvy</div>
-  </div>
-  <div class="hero-actions">
-    <a class="btn-main" href="https://forms.gle/TVUJ-ODKAZ-SEM">Potvrdit účast</a>
-    <a class="btn-secondary" href="#zakladni-info">Zobrazit info</a>
-  </div>
+
+<div class="hero-video-wrap">
+  <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="images/hero.jpg">
+    <source src="media/hero-fire.mp4" type="video/mp4">
+  </video>
 </div>
+
+
+::: {.hero-inner}
+
+[Letní voda pro přátele]{.eyebrow}
+
+# Vodák 2026
+
+::: {.lead}
+Čtyři dny na Vltavě, pohoda na vodě, večery u ohně a pár dní, kdy se svět kolem na chvíli zpomalí.
+Tady najdeš všechny důležité informace na jednom místě.
 :::
 
-::: {.quick-nav}
+::: {.hero-meta}
+**Termín akce:** 26.–30. června 2026  
+**Řeka:** Vltava  
+**Sraz:** 26. června večer – Ubytovna / Kemp Pod Hrází  
+**Vyplutí:** 27. června v 10:00
+:::
+
+:::
+
+::: {.quick-nav .quick-nav-hero}
 [Základní info](#zakladni-info)
+[Ubytování](#ubytovani)
+[Plavidla](#plavidla)
 [Program](#program)
 [Co s sebou](#co-s-sebou)
 [Doprava](#doprava)
-[FAQ](#faq)
-[Fotky](#fotky)
+[Dotazy](#faq)
 [Kontakt](#kontakt)
+:::
 :::
 
 ## Základní info {#zakladni-info}
 
-- **Akce:** víkendový vodák pro přátele a známé
-- **Termín:** 12.–14. června 2026
-- **Trasa:** Týnec nad Sázavou → Pikovice
-- **Obtížnost:** vhodné i pro lidi bez velkých zkušeností
-- **Styl akce:** pohodová voda, žádný závod
+::: {.info-grid}
 
-## Stručný program {#program}
+::: {.info-card}
+### Akce
+Víkendový vodák pro přátele a známé.
+:::
 
-### Pátek
-Příjezd, přesun na místo, ubytování / kemp, společný večer.
+::: {.info-card}
+### Termín
+26.–30. června 2026  
+Splouvání 27.–30. června
+:::
 
-### Sobota
-Hlavní úsek na vodě, zastávky po cestě, večer posezení.
+::: {.info-card}
+### Trasa
+Vyšší Brod → Boršov nad Vltavou
+:::
 
-### Neděle
-Kratší dojezd, sbalení věcí, návrat domů.
+::: {.info-card}
+### Obtížnost
+Vhodné i pro lidi bez zkušeností.
+:::
+
+::: {.info-card}
+### Styl akce
+Pohodová voda, žádný závod, večer posezení.
+:::
+
+::: {.info-card}
+### Potvrzení účasti
+Dej vědět přes formulář, ať máme přehled o lidech, autech a lodích.
+:::
+
+:::
+
+## Ubytování {#ubytovani}
+
+::: {.packing-grid}
+
+::: {.packing-card .packing-card-photo .stay-card}
+::: {.packing-body}
+
+
+### Stan
+
+<div class="stay-price">200 Kč <span>/ osoba / noc</span></div>
+
+<ul class="stay-list">
+  <li>stan: <strong>200 Kč / noc</strong></li>
+  <li>čím více lidí ve stanu, tím levněji vychází cena na hlavu</li>
+  <li>orientačně při 2 lidech: <strong>300 Kč / noc na hlavu</strong></li>
+  <li>orientačně za 4 noci: <strong>1 200 Kč / osoba</strong></li>
+</ul>
+
+<div class="stay-note"><strong>Výhoda:</strong> větší soukromí</div>
+:::
+
+<div class="packing-photo stay-photo-stan">
+  <img src="images/stan.jpg" alt="Stan v lese">
+</div>
+:::
+
+::: {.packing-card .packing-card-photo .stay-card}
+::: {.packing-body}
+
+
+### Teepee
+
+<div class="stay-price">200 Kč <span>/ osoba / noc</span></div>
+
+<ul class="stay-list">
+  <li>pronájem teepee: <strong>1 000 Kč / noc</strong></li>
+  <li>kapacita: <strong>až 12 lidí</strong></li>
+  <li>orientačně při plném obsazení: <strong>283 Kč / noc na hlavu</strong></li>
+  <li>orientačně za 4 noci: <strong>1 133 Kč / osoba</strong></li>
+</ul>
+
+<div class="stay-note"><strong>Výhoda:</strong> nikdo nemusí stavět ani skládat stan</div>
+:::
+
+<div class="packing-photo">
+  <img src="images/teepee.jpg" alt="Teepee na louce">
+</div>
+:::
+
+:::
+## Plavidla {#plavidla}
+
+
+::: {.program-grid}
+
+::: {.program-card}
+### Kajak
+
+**Pro 1 osobu**
+
+- cena: **470 Kč / den**
+- orientačně celkem na hlavu: **1 880 Kč**
+:::
+
+::: {.program-card}
+### Baraka
+
+**Pro 2 osoby**
+
+- cena: **550 Kč / den**
+- orientačně celkem na hlavu: **1 100 Kč**
+:::
+
+::: {.program-card}
+### Raft
+
+**Pro 4 osoby**
+
+- cena: **1 050 Kč / den**
+- orientačně celkem na hlavu: **1 050 Kč**
+:::
+
+::: {.program-card}
+### Raft XL
+
+**Pro 6 osob**
+
+- cena: **1 290 Kč / den**
+- orientačně celkem na hlavu: **860 Kč**
+:::
+
+:::
+
+::: {.callout-note}
+### Poznámka k cenám
+Uvedené ceny jsou aktuální orientační ceny **bez slevy**. Předpokládám minimálně **10% slevu** za věrnost a větší skupinu, takže finální částky mohou být ještě o něco nižší.
+:::
+
+
+## Program {#program}
+
+::: {.program-grid}
+
+::: {.program-card}
+### 26. června – příjezd
+Příjezd večer do Ubytovna / Kemp Pod Hrází. Večer sraz, ubytování a příprava na vyplutí.
+:::
+
+::: {.program-card}
+### 27. června – 1. den
+Vyplutí v 10:00 z Vyššího Brodu. Cíl: Kemp U Fíka (Náhořany), přibližně 21 km.
+:::
+
+::: {.program-card}
+### 28. června – 2. den
+Pokračování do Kempu Krumlov, přibližně 17 km.
+:::
+
+::: {.program-card}
+### 29. června – 3. den
+Pokračování do Kempu U Kelta, přibližně 20 km.
+:::
+
+::: {.program-card}
+### 30. června – 4. den
+Doplujeme do Boršova – Kemp Poslední Štace, přibližně 12 km.
+:::
+
+::: {.program-card}
+### 30. června odpoledne – odjezd
+Předpokládaný odjezd z Boršova po obědě.
+:::
+
+:::
 
 ## Co s sebou {#co-s-sebou}
 
-- rychleschnoucí oblečení
+::: {.packing-grid}
+
+::: {.packing-card .packing-card-photo}
+::: {.packing-body}
+### Na vodu
+
 - boty do vody
 - náhradní suché věci
-- spacák a hygienu
 - opalovací krém
-- hotovost / kartu
+- pokrývka hlavy
+- drobná lékárnička
+- pláštěnka
+:::
+
+<div class="packing-photo">
+  <img src="images/foto-3.jpg" alt="Klidná řeka v lese">
+</div>
+:::
+
+::: {.packing-card .packing-card-photo}
+::: {.packing-body}
+### Na večer a spaní
+
+- spacák
+- karimatka nebo matrace
+- mikina / teplejší vrstva
+- hygienické potřeby
+- ručník
 - dobrou náladu
+:::
+
+<div class="packing-photo">
+  <img src="images/foto-2.jpg" alt="Večerní atmosféra u ohně">
+</div>
+:::
+
+:::
 
 ::: {.callout-tip}
 ### Doporučení
-Cennosti dej do vodotěsného obalu a neber zbytečně moc věcí. Čím míň chaosu, tím lepší víkend.
+Kempingové vybavení a zásoby budu převážet autem z kempu do kempu vždy ráno před vyplutím. Pokud tedy vyloženě nechceš, nemusíš všechno tahat na lodi. Díky tomu bude na lodi větší komfort a zároveň ušetříme i za občerstvení po cestě.
+
+Z mojí zkušenosti nafukovací matrace zabere méně místa než karimatka a zároveň se na ní spí pohodlněji. Beru s sebou aku fukar, se kterým je matrace nafouknutá zhruba za minutu.
+
+Na cennosti, které chceš mít na vodě po ruce, použij vodotěsný obal. Jestli nemáš, napiš mi. Třeba ještě budu mít nějaký na půjčení.
 :::
 
-## Doprava a sraz {#doprava}
+## Doprava {#doprava}
 
-Sraz dáme v pátek v podvečer. Kdo pojede autem, doplní ve formuláři počet volných míst. Kdo potřebuje svézt, vyplní to taky tam.
+::: {.transport-grid}
 
-**Mapa / místo srazu:** [Otevřít v Google Maps](https://maps.google.com)
+::: {.transport-card}
+### Sraz
+Sraz je 26. června večer v Ubytovna / Kemp Pod Hrází. Kdo nebude chtít dorazit už večer, může přijet i 27. června ráno před vyplutím.
+:::
 
-## FAQ {#faq}
+::: {.transport-card}
+### Přesun a auta
+Poprosím o informaci ve formuláři, jestli můžeš vzít auto nebo naopak potřebuješ odvoz. Podle toho doladíme dopravu tam i zpět.
+:::
+
+:::
+
+[Zobrazit místo srazu na mapě](https://maps.app.goo.gl/gx4KaU8oaHqXmULD6){.map-btn}
+
+## Dotazy {#faq}
 
 <details>
 <summary>Musím mít zkušenosti s vodou?</summary>
@@ -81,35 +292,51 @@ Sraz dáme v pátek v podvečer. Kdo pojede autem, doplní ve formuláři počet
 </details>
 
 <details>
-<summary>Co když si ještě nejsem jistý?</summary>
-<p>Ve formuláři můžeš zvolit i variantu „Asi jo, ale ještě nevím“. Aspoň budeme mít orientační přehled.</p>
+<summary>Co když dorazím až 27. června ráno?</summary>
+<p>Je to v pohodě. Sraz je sice už 26. června večer, ale kdo chce, může dorazit až 27. června ráno před vyplutím.</p>
 </details>
 
 <details>
 <summary>Jak budeme řešit lodě a posádky?</summary>
-<p>Každý ve formuláři uvede preferenci lodě a případně s kým chce sedět. Finální rozdělení udělá organizátor ručně v Google Sheetu.</p>
+<p>Preference posádek a lodí posbíráme přes formulář a následně to doladíme ručně, ať to dává smysl.</p>
 </details>
 
-## Fotky {#fotky}
+<details>
+<summary>Na kolik mě to tedy odhadem vyjde?</summary>
+<p>Počítej přibližně s <strong>cca 2 200 Kč za ubytování a vybavení</strong>. Zbytek je už hodně individuální a bude záležet hlavně na dopravě — tedy odkud jedeš, kolik lidí pojede v autě a jak se rozdělí palivo.</p>
+<p>Další položkou bude to, kolik kdo utratí za jídlo a pití. Občerstvení podél řeky bývá zpravidla dost drahé. Pokud to chceš pojmout víc low cost, zaměř se hlavně na vlastní zásoby. Díky každodennímu převozu věcí autem a chladicím boxům to nemusí vyjít draze.</p>
+</details>
 
-::: {.gallery}
-![](images/hero.jpg){.gallery-img fig-alt="Řeka a loďky"}
-![](images/foto-1.jpg){.gallery-img fig-alt="Pauza u vody"}
-![](images/foto-2.jpg){.gallery-img fig-alt="Večerní atmosféra"}
-:::
-
-## Potvrzení účasti
-
-::: {.cta-card}
-### Jedu / nejedu? Dej vědět přes formulář
-
-Formulář sbírá jen odpovědi. Web slouží jen jako přehled informací.
-
-[Otevřít Google Form](https://forms.gle/TVUJ-ODKAZ-SEM){.btn-main}
-:::
+<div class="faq-photo-card">
+  <img src="images/foto-1.jpg" alt="Rafty na řece">
+</div>
 
 ## Kontakt {#kontakt}
 
-**Organizátor:** Jakub  
-**Telefon:** +420 000 000 000  
-**E-mail:** jakub@example.com
+::: {.contact-grid}
+
+::: {.contact-card}
+### Organizátor
+Jakub Kozlok  
+*Kozlík / Moučný červ*
+:::
+
+::: {.contact-card}
+### Mobil
+[+420 777 168 341](tel:+420777168341)
+:::
+
+::: {.contact-card}
+### Potvrzení účasti
+Vyplň prosím formulář, ať máme přehled o lidech, dopravě a posádkách.
+:::
+
+:::
+
+::: {.final-cta}
+## Chceš jet s námi?
+
+Potvrď účast přes formulář a pomoz nám doladit dopravu, lodě i organizaci.
+
+[Potvrdit účast](https://tally.so/r/9qlzB5){.final-cta-btn}
+:::

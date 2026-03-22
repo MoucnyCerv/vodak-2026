@@ -3,15 +3,17 @@ project:
   output-dir: docs
 
 website:
+  search: false
   title: "Vodák 2026"
   favicon: images/favicon.png
   navbar:
-    left:
-      - href: index.qmd
-        text: Pozvánka
+
     right:
       - text: "Potvrdit účast"
-        href: "https://forms.gle/TVUJ-ODKAZ-SEM"
+        href: "https://tally.so/r/9qlzB5"
+      - text: "Přehled účastníků"
+        href: "https://docs.google.com/spreadsheets/d/1u5gAE2TQ7bxshu33_n5GWVWkZ_4q1PKmiPANmR2ZneI/edit?usp=sharing"
+
 
 format:
   html:
