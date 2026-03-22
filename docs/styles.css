@@ -1421,35 +1421,43 @@ summary,
   }
 
   /* quick nav pod hero textem */
-  .quick-nav-hero {
-    position: static !important;
-    left: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-    transform: none !important;
-    width: 100% !important;
-    max-width: 520px !important;
-    margin: 1rem auto 0 !important;
-    padding: 0 !important;
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    gap: 0.65rem !important;
-  }
+.quick-nav-hero {
+  position: static !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: 500px !important;
+  margin: 1.1rem auto 0 !important;
+  padding: 0 !important;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 0.5rem !important;
+}
 
-  .quick-nav-hero a {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 100% !important;
-    min-height: 52px !important;
-    min-width: 0 !important;
-    padding: 0.8rem 0.9rem !important;
-    border-radius: 18px !important;
-    font-size: 0.92rem !important;
-    line-height: 1.15 !important;
-    text-align: center !important;
-    white-space: normal !important;
-  }
+.quick-nav-hero a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  min-height: 46px !important;
+  min-width: 0 !important;
+  padding: 0.72rem 0.95rem !important;
+  border-radius: 14px !important;
+  font-size: 0.95rem !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  background: rgba(255, 255, 255, 0.16) !important;
+  border: 1px solid rgba(255, 255, 255, 0.28) !important;
+  box-shadow: 0 8px 22px rgba(8, 25, 40, 0.14) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  color: #ffffff !important;
+  letter-spacing: 0.01em !important;
+}
 
   /* CTA blok pod herem */
   .mobile-cta {
