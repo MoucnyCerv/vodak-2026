@@ -6,9 +6,7 @@ page-layout: full
 ::: {.hero}
 
 <div class="hero-video-wrap">
-  <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="images/hero.jpg">
-    <source src="media/hero-fire.mp4" type="video/mp4">
-  </video>
+  <video class="hero-video" muted loop playsinline preload="none" poster="images/hero.jpg"></video>
 </div>
 
 
@@ -42,6 +40,11 @@ Tady najdeš všechny důležité informace na jednom místě.
 [Dotazy](#faq)
 [Kontakt](#kontakt)
 :::
+:::
+
+::: {.mobile-cta}
+[Potvrdit účast](https://tally.so/r/9qlzB5){.btn-main}
+[Přehled účastníků](https://docs.google.com/spreadsheets/d/1u5gAE2TQ7bxshu33_n5GWVWkZ_4q1PKmiPANmR2ZneI/edit?usp=sharing){.btn-secondary}
 :::
 
 ## Základní info {#zakladni-info}
@@ -96,8 +99,8 @@ Dej vědět přes formulář, ať máme přehled o lidech, autech a lodích.
 <ul class="stay-list">
   <li>stan: <strong>200 Kč / noc</strong></li>
   <li>čím více lidí ve stanu, tím levněji vychází cena na hlavu</li>
-  <li>orientačně při 2 lidech: <strong>300 Kč / noc na hlavu</strong></li>
-  <li>orientačně za 4 noci: <strong>1 200 Kč / osoba</strong></li>
+  <li>orientačně při 2 lidech: <strong><span class="nowrap-price">300&nbsp;Kč / noc</span></strong> na hlavu</li>
+  <li>orientačně za 4 noci: <strong><span class="nowrap-price">1&nbsp;200&nbsp;Kč / osoba</span></strong></li>
 </ul>
 
 <div class="stay-note"><strong>Výhoda:</strong> větší soukromí</div>
@@ -117,10 +120,10 @@ Dej vědět přes formulář, ať máme přehled o lidech, autech a lodích.
 <div class="stay-price">200 Kč <span>/ osoba / noc</span></div>
 
 <ul class="stay-list">
-  <li>pronájem teepee: <strong>1 000 Kč / noc</strong></li>
+  <li>pronájem teepee: <strong><span class="nowrap-price">1&nbsp;000&nbsp;Kč / noc</span></strong></li>
   <li>kapacita: <strong>až 12 lidí</strong></li>
-  <li>orientačně při plném obsazení: <strong>283 Kč / noc na hlavu</strong></li>
-  <li>orientačně za 4 noci: <strong>1 133 Kč / osoba</strong></li>
+  <li>orientačně při plném obsazení: <strong><span class="nowrap-price">283&nbsp;Kč / noc</span></strong> na hlavu</li>
+  <li>orientačně za 4 noci: <strong><span class="nowrap-price">1&nbsp;133&nbsp;Kč / osoba</span></strong></li>
 </ul>
 
 <div class="stay-note"><strong>Výhoda:</strong> nikdo nemusí stavět ani skládat stan</div>
@@ -340,3 +343,45 @@ Potvrď účast přes formulář a pomoz nám doladit dopravu, lodě i organizac
 
 [Potvrdit účast](https://tally.so/r/9qlzB5){.final-cta-btn}
 :::
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const heroVideo = document.querySelector(".hero-video");
+  if (!heroVideo) return;
+
+  const mobileMq = window.matchMedia("(max-width: 768px)");
+  const heroSrc = "media/hero-fire.mp4";
+
+  function applyHeroMedia() {
+    const currentSource = heroVideo.querySelector("source");
+
+    if (mobileMq.matches) {
+      heroVideo.pause();
+      if (currentSource) {
+        currentSource.remove();
+        heroVideo.load();
+      }
+      return;
+    }
+
+    if (!currentSource) {
+      const source = document.createElement("source");
+      source.src = heroSrc;
+      source.type = "video/mp4";
+      heroVideo.appendChild(source);
+      heroVideo.load();
+    }
+
+    heroVideo.play().catch(() => {});
+  }
+
+  applyHeroMedia();
+
+  if (mobileMq.addEventListener) {
+    mobileMq.addEventListener("change", applyHeroMedia);
+  } else {
+    mobileMq.addListener(applyHeroMedia);
+  }
+});
+</script>
