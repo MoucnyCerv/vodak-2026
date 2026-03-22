@@ -1535,3 +1535,24 @@ summary,
     font-size: 2rem !important;
   }
 }
+
+/* MOBILE – schovat zbytečné navbar menu a nechat čistou hlavičku */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: none !important;
+  }
+
+  .navbar-collapse {
+    display: none !important;
+  }
+
+  .navbar > .container,
+  .navbar > .container-fluid {
+    justify-content: center !important;
+  }
+
+  .navbar-brand {
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+}
