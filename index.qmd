@@ -142,8 +142,8 @@ Dej vědět přes formulář, ať máme přehled o lidech, autech a lodích.
 
 **Pro 1 osobu**
 
-- cena: **470 Kč / den**
-- orientačně celkem na hlavu: **1 880 Kč**
+- cena: <strong><span class="nowrap-price">470&nbsp;Kč / den</span></strong>
+- orientačně celkem na hlavu: <strong><span class="nowrap-price">1&nbsp;880&nbsp;Kč</span></strong>
 :::
 
 ::: {.program-card}
@@ -151,8 +151,8 @@ Dej vědět přes formulář, ať máme přehled o lidech, autech a lodích.
 
 **Pro 2 osoby**
 
-- cena: **550 Kč / den**
-- orientačně celkem na hlavu: **1 100 Kč**
+- cena: <strong><span class="nowrap-price">550&nbsp;Kč / den</span></strong>
+- orientačně celkem na hlavu: <strong><span class="nowrap-price">1&nbsp;100&nbsp;Kč</span></strong>
 :::
 
 ::: {.program-card}
@@ -160,8 +160,8 @@ Dej vědět přes formulář, ať máme přehled o lidech, autech a lodích.
 
 **Pro 4 osoby**
 
-- cena: **1 050 Kč / den**
-- orientačně celkem na hlavu: **1 050 Kč**
+- cena: <strong><span class="nowrap-price">1&nbsp;050&nbsp;Kč / den</span></strong>
+- orientačně celkem na hlavu: <strong><span class="nowrap-price">1&nbsp;050&nbsp;Kč</span></strong>
 :::
 
 ::: {.program-card}
@@ -169,8 +169,8 @@ Dej vědět přes formulář, ať máme přehled o lidech, autech a lodích.
 
 **Pro 6 osob**
 
-- cena: **1 290 Kč / den**
-- orientačně celkem na hlavu: **860 Kč**
+- cena: <strong><span class="nowrap-price">1&nbsp;290&nbsp;Kč / den</span></strong>
+- orientačně celkem na hlavu: <strong><span class="nowrap-price">860&nbsp;Kč</span></strong>
 :::
 
 :::
