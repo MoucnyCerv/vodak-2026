@@ -1372,3 +1372,166 @@ summary,
     object-position: center 70% !important;
   }
 }
+
+/* MOBILE – finální sjednocení vzhledu s desktopem */
+@media (max-width: 768px) {
+  :root {
+    --nav-h: 64px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 1.05rem !important;
+  }
+
+  .navbar .navbar-nav.ms-auto {
+    gap: 0.45rem;
+  }
+
+  .navbar .navbar-nav.ms-auto .nav-link {
+    width: 100%;
+    justify-content: center;
+    padding: 0.72rem 0.95rem !important;
+    font-size: 0.95rem !important;
+    border-radius: 16px !important;
+  }
+
+  .hero {
+    min-height: auto !important;
+    padding: calc(3.3rem + var(--nav-h)) 1rem 0.9rem !important;
+    margin-bottom: 1rem !important;
+    border-radius: 0 0 22px 22px !important;
+  }
+
+  .hero-inner {
+    max-width: none !important;
+    padding-bottom: 7.2rem !important;
+    transform: none !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.15rem, 8vw, 2.9rem) !important;
+    line-height: 1.02 !important;
+    margin-bottom: 0.65rem !important;
+  }
+
+  .hero .lead {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    margin: 0 0 0.9rem !important;
+  }
+
+  .hero-meta {
+    font-size: 0.98rem !important;
+    line-height: 1.6 !important;
+    margin: 0.7rem 0 0 !important;
+  }
+
+  .quick-nav-hero {
+    width: calc(100% - 1rem) !important;
+    left: 50% !important;
+    bottom: 0.65rem !important;
+    transform: translateX(-50%) !important;
+    justify-content: center !important;
+    gap: 0.55rem !important;
+    padding: 0 0.25rem !important;
+  }
+
+  .quick-nav-hero a {
+    flex: 1 1 calc(50% - 0.55rem) !important;
+    min-width: 0 !important;
+    padding: 0.78rem 0.9rem !important;
+    font-size: 0.92rem !important;
+    text-align: center !important;
+  }
+
+  h2 {
+    font-size: 1.95rem !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .info-grid,
+  .program-grid,
+  .packing-grid,
+  .transport-grid,
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.9rem !important;
+    margin: 1rem 0 1.5rem !important;
+  }
+
+  .info-card,
+  .program-card,
+  .packing-card,
+  .transport-card,
+  .contact-card,
+  .stay-card {
+    border-radius: 18px !important;
+  }
+
+  .info-card,
+  .program-card,
+  .packing-card,
+  .transport-card,
+  .contact-card {
+    padding: 1rem !important;
+  }
+
+  .packing-card-photo .packing-photo img,
+  .stay-card .packing-photo img {
+    height: 165px !important;
+  }
+
+  details {
+    border-radius: 18px !important;
+    margin: 0.75rem 0 !important;
+  }
+
+  summary {
+    padding: 0.95rem 1rem !important;
+    font-size: 1rem !important;
+    line-height: 1.4 !important;
+  }
+
+  details p {
+    padding: 0 1rem 1rem 2.35rem !important;
+    font-size: 0.97rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .faq-photo-card img {
+    height: 185px !important;
+  }
+
+  .final-cta {
+    padding: 1.15rem 1rem 1.1rem !important;
+    border-radius: 20px !important;
+  }
+
+  .final-cta h2 {
+    font-size: 1.65rem !important;
+  }
+
+  .map-btn,
+  .final-cta-btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero-inner {
+    padding-bottom: 10.2rem !important;
+  }
+
+  .quick-nav-hero a {
+    flex-basis: 100% !important;
+  }
+
+  .hero h1 {
+    font-size: 2rem !important;
+  }
+}
