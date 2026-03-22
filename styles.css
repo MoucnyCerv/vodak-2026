@@ -1373,85 +1373,18 @@ summary,
   }
 }
 
-/* ===== MOBILE FINAL FIX ===== */
-@media (max-width: 768px) {
-  /* navbar */
-  .navbar-toggler {
-    display: none !important;
-  }
-
-  .navbar .navbar-collapse,
-  .navbar .navbar-collapse.collapse,
-  .navbar .navbar-collapse.collapsing,
-  .navbar .navbar-collapse.show {
-    display: block !important;
-    visibility: visible !important;
-    flex-basis: 100% !important;
-    margin-top: 0.55rem !important;
-  }
-
-  .navbar > .container,
-  .navbar > .container-fluid {
-    align-items: flex-start !important;
-  }
-
-  .navbar-brand {
-    margin: 0 auto !important;
-    text-align: center !important;
-  }
-
-  .navbar .navbar-nav.ms-auto {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-    gap: 0.55rem !important;
-    margin: 0.15rem 0 0 !important;
-  }
-
-  .navbar .navbar-nav.ms-auto .nav-link {
-    width: 100% !important;
-    justify-content: center !important;
-    padding: 0.72rem 0.95rem !important;
-    font-size: 0.95rem !important;
-    border-radius: 18px !important;
-  }
-
-  /* hero – na mobilu statická fotka místo videa */
-  .hero-video {
-    display: none !important;
-  }
-
-  .hero-video-wrap {
-    background-image: url("images/hero.jpg") !important;
-    background-size: cover !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-  }
-
-  .hero {
-    min-height: auto !important;
-    padding: calc(4rem + var(--nav-h)) 1rem 0.9rem !important;
-  }
-
-  .hero-inner {
-    padding-bottom: 8.4rem !important;
-    transform: translateY(-0.25rem) !important;
-  }
-}
-
-/* ceny */
-.nowrap-price {
-  white-space: nowrap !important;
-}
-
-/* ===== MOBILE STABILIZATION – FINAL ===== */
+/* ===== MOBILE CLEAN FINAL ===== */
 
 .mobile-cta {
   display: none;
 }
 
+.nowrap-price {
+  white-space: nowrap !important;
+}
+
 @media (max-width: 768px) {
-  /* mobil: brand nahoře, CTA pod herem, ne hamburger */
+  /* navbar */
   .navbar-toggler,
   .navbar .navbar-collapse,
   .navbar .navbar-collapse.collapse,
@@ -1474,126 +1407,20 @@ summary,
   /* hero */
   .hero {
     min-height: auto !important;
-    padding: calc(4rem + var(--nav-h)) 1rem 1rem !important;
-    border-radius: 0 0 24px 24px !important;
-    margin-bottom: 1rem !important;
-  }
-
-  .hero-inner {
-    max-width: none !important;
-    padding-bottom: 0 !important;
-    transform: none !important;
-  }
-
-  /* quick nav už nebude absolutně přilepený ke spodku hera */
-  .quick-nav-hero {
-    position: static !important;
-    left: auto !important;
-    bottom: auto !important;
-    transform: none !important;
-    width: 100% !important;
-    max-width: none !important;
-    margin: 1rem 0 0 !important;
-    padding: 0 !important;
-    justify-content: flex-start !important;
-    gap: 0.55rem !important;
-  }
-
-  .quick-nav-hero a {
-    flex: 1 1 calc(50% - 0.55rem);
-    min-width: 0 !important;
-    padding: 0.8rem 0.95rem !important;
-    font-size: 0.92rem !important;
-    text-align: center !important;
-  }
-
-  /* CTA pod herem */
-  .mobile-cta {
-    display: grid !important;
-    grid-template-columns: 1fr;
-    gap: 0.65rem;
-    margin: 0 0 1rem;
-  }
-
-  .mobile-cta .btn-main,
-  .mobile-cta .btn-secondary {
-    width: 100%;
-    justify-content: center;
-  }
-
-  /* místo videa statická hero fotka */
-  .hero-video {
-    display: none !important;
-  }
-
-  .hero-video-wrap {
-    background-image: url("images/hero.jpg") !important;
-    background-size: cover !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-  }
-
-  /* ceny – žádné ošklivé zalamování */
-  .nowrap-price,
-  .stay-price,
-  .stay-price span,
-  .stay-list strong,
-  .program-card strong {
-    white-space: nowrap !important;
-    word-break: normal !important;
-    overflow-wrap: normal !important;
-    hyphens: none !important;
-  }
-}
-
-@media (max-width: 420px) {
-  .quick-nav-hero a {
-    flex-basis: 100% !important;
-  }
-}
-
-/* ===== MOBILE HARD RESET ===== */
-@media (max-width: 768px) {
-  /* navbar */
-  .navbar-toggler {
-    display: none !important;
-  }
-
-  .navbar .navbar-collapse,
-  .navbar .navbar-collapse.collapse,
-  .navbar .navbar-collapse.collapsing,
-  .navbar .navbar-collapse.show {
-    display: none !important;
-  }
-
-  .navbar > .container,
-  .navbar > .container-fluid {
-    justify-content: center !important;
-    align-items: center !important;
-  }
-
-  .navbar-brand {
-    margin: 0 auto !important;
-    text-align: center !important;
-  }
-
-  /* hero */
-  .hero {
-    min-height: auto !important;
-    padding: calc(4rem + var(--nav-h)) 1rem 1rem !important;
-    margin-bottom: 1rem !important;
-    border-radius: 0 0 24px 24px !important;
     display: block !important;
+    padding: calc(4rem + var(--nav-h)) 1rem 1rem !important;
+    margin-bottom: 1rem !important;
+    border-radius: 0 0 24px 24px !important;
   }
 
   .hero-inner {
-    max-width: none !important;
     width: 100% !important;
+    max-width: none !important;
     padding-bottom: 0 !important;
     transform: none !important;
   }
 
-  /* quick nav */
+  /* quick nav pod hero textem */
   .quick-nav-hero {
     position: static !important;
     left: auto !important;
@@ -1618,7 +1445,21 @@ summary,
     text-align: center !important;
   }
 
-  /* hero media */
+  /* CTA blok pod herem */
+  .mobile-cta {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+    margin: 0 0 1rem;
+  }
+
+  .mobile-cta .btn-main,
+  .mobile-cta .btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* místo videa statická fotka */
   .hero-video {
     display: none !important;
   }
@@ -1630,7 +1471,7 @@ summary,
     background-repeat: no-repeat !important;
   }
 
-  /* prices */
+  /* ceny */
   .nowrap-price,
   .stay-price,
   .stay-price span,
