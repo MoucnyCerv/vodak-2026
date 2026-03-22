@@ -6,7 +6,9 @@ page-layout: full
 ::: {.hero}
 
 <div class="hero-video-wrap">
-  <video class="hero-video" muted loop playsinline preload="none" poster="images/hero.jpg"></video>
+  <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="images/hero.jpg">
+    <source src="media/hero-fire.mp4" type="video/mp4">
+  </video>
 </div>
 
 
@@ -344,44 +346,3 @@ Potvrď účast přes formulář a pomoz nám doladit dopravu, lodě i organizac
 [Potvrdit účast](https://tally.so/r/9qlzB5){.final-cta-btn}
 :::
 
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const heroVideo = document.querySelector(".hero-video");
-  if (!heroVideo) return;
-
-  const mobileMq = window.matchMedia("(max-width: 768px)");
-  const heroSrc = "media/hero-fire.mp4";
-
-  function applyHeroMedia() {
-    const currentSource = heroVideo.querySelector("source");
-
-    if (mobileMq.matches) {
-      heroVideo.pause();
-      if (currentSource) {
-        currentSource.remove();
-        heroVideo.load();
-      }
-      return;
-    }
-
-    if (!currentSource) {
-      const source = document.createElement("source");
-      source.src = heroSrc;
-      source.type = "video/mp4";
-      heroVideo.appendChild(source);
-      heroVideo.load();
-    }
-
-    heroVideo.play().catch(() => {});
-  }
-
-  applyHeroMedia();
-
-  if (mobileMq.addEventListener) {
-    mobileMq.addEventListener("change", applyHeroMedia);
-  } else {
-    mobileMq.addListener(applyHeroMedia);
-  }
-});
-</script>

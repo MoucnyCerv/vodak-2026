@@ -1490,3 +1490,30 @@ summary,
     flex-basis: 100% !important;
   }
 }
+
+quarto render
+git add .
+git commit -m "Polish mobile hero nav and FAQ"
+git push
+
+/* ===== HERO CLICK FIX ===== */
+
+.hero::before {
+  pointer-events: none !important;
+}
+
+.hero-video-wrap {
+  pointer-events: none !important;
+}
+
+@media (max-width: 768px) {
+  .quick-nav-hero {
+    position: relative !important;
+    z-index: 5 !important;
+  }
+
+  .quick-nav-hero a {
+    position: relative !important;
+    z-index: 6 !important;
+  }
+}
