@@ -1528,3 +1528,36 @@ summary,
     z-index: 6 !important;
   }
 }
+
+/* ===== MOBILE FAQ ALIGN FIX ===== */
+@media (max-width: 768px) {
+  details summary {
+    display: grid !important;
+    grid-template-columns: 22px 1fr !important;
+    column-gap: 0.85rem !important;
+    align-items: start !important;
+    padding: 1rem 1rem 1rem 1.05rem !important;
+    line-height: 1.38 !important;
+  }
+
+  details summary::before {
+    width: 22px !important;
+    min-width: 22px !important;
+    height: 22px !important;
+    margin-right: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 999px !important;
+    background: #edf4fa !important;
+    color: #1f6aa5 !important;
+    font-size: 1rem !important;
+    font-weight: 800 !important;
+    line-height: 1 !important;
+    transform: translateY(2px);
+  }
+
+  details p {
+    padding: 0 1rem 1rem calc(1.05rem + 22px + 0.85rem) !important;
+  }
+}
