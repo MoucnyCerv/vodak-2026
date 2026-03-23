@@ -46,7 +46,7 @@ Tady najdeš všechny důležité informace na jednom místě.
 
 ::: {.mobile-cta}
 [Potvrdit účast](https://tally.so/r/9qlzB5){.btn-main}
-[Přehled účastníků](https://docs.google.com/spreadsheets/d/1u5gAE2TQ7bxshu33_n5GWVWkZ_4q1PKmiPANmR2ZneI/edit?usp=sharing){.btn-secondary}
+[Přehled účastníků](https://lookerstudio.google.com/reporting/503e713d-a3c6-433d-af67-ce63b62ce1d1){.btn-secondary}
 :::
 
 ## Základní info {#zakladni-info}
