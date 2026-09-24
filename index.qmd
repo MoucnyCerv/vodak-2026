@@ -16,7 +16,7 @@ page-layout: full
 
 [Letní voda pro přátele]{.eyebrow}
 
-# test {#vodák-2026}
+# Vodák 2026
 
 ::: {.lead}
 Čtyři dny na Vltavě, pohoda na vodě, večery u ohně a pár dní, kdy se svět kolem na chvíli zpomalí.
