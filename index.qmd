@@ -16,7 +16,7 @@ page-layout: full
 
 [Letní voda pro přátele]{.eyebrow}
 
-# Vodák 2026
+# test {#vodák-2026}
 
 ::: {.lead}
 Čtyři dny na Vltavě, pohoda na vodě, večery u ohně a pár dní, kdy se svět kolem na chvíli zpomalí.
@@ -345,4 +345,3 @@ Potvrď účast přes formulář a pomoz nám doladit dopravu, lodě i organizac
 
 [Potvrdit účast](https://tally.so/r/9qlzB5){.final-cta-btn}
 :::
-
